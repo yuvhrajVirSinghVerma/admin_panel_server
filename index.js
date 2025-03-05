@@ -24,6 +24,16 @@ let locationData = [
   { lat: 37.7756, lon: -122.4198 },
   { lat: 37.7757, lon: -122.4199 },
   { lat: 37.7758, lon: -122.4199 },
+  { lat: 38.7749, lon: -122.4194 },
+  { lat: 39.7750, lon: -122.4195 },
+  { lat: 39.7751, lon: -122.4196 },
+  { lat: 40.7752, lon: -122.4196 },
+  { lat: 40.7753, lon: -122.4197 },
+  { lat: 40.7754, lon: -122.4197 },
+  { lat: 41.7755, lon: -122.4198 },
+  { lat: 41.7756, lon: -122.4198 },
+  { lat: 42.7757, lon: -122.4199 },
+  { lat: 43.7758, lon: -122.4199 },
 
 ];
 
@@ -92,5 +102,5 @@ app.get('/api/live-location', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on ${PORT}`);
 });
